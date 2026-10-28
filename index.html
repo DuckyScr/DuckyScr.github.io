@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Ragac — Programmer</title>
+  <meta name="description" content="Adam Ragac, programmer. Projects, skills, and contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">&lt;AR /&gt;</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="prompt"><span class="accent">$</span> whoami</p>
+      <h1>Adam Ragac</h1>
+      <p class="tagline">Programmer. I build software that works and code that reads well.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2><span class="accent">01.</span> About</h2>
+      <p>
+        Hi, I'm Adam. I write code: I like taking a problem apart, finding a clean
+        solution, and shipping it. This site is where I keep my projects and what
+        I'm working on now.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2><span class="accent">02.</span> Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>A short description of what it does and the problem it solves.</p>
+          <p class="tags">Python · CLI</p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>A short description of what it does and the problem it solves.</p>
+          <p class="tags">JavaScript · Web</p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>A short description of what it does and the problem it solves.</p>
+          <p class="tags">API · Backend</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2><span class="accent">03.</span> Skills</h2>
+      <ul class="skills">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML &amp; CSS</li>
+        <li>Git</li>
+        <li>Linux</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2><span class="accent">04.</span> Contact</h2>
+      <p>Want to work together or just say hi? Reach out.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:you@example.com">Email me</a>
+        <a class="btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Adam Ragac</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
